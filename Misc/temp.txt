@@ -1,0 +1,270 @@
+<script>
+            const cursorDot = document.querySelector("[data-cursor-dot]");
+            const cursorOutline = document.querySelector("[data-cursor-outline]");
+    
+            window.addEventListener("mousemove", function(e){
+            const posX=e.clientX;
+            const posY=e.clientY;
+    
+            cursorDot.computedStyleMap.left=`${posX}px`;
+            cursorDot.computedStyleMap.top=`${posY}px`;
+    
+            cursorOutline.computedStyleMap.left=`${posX}px`;
+            cursorOutline.computedStyleMap.top=`${posY}px`;
+            });
+        </script>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>  
+
+
+body{
+    cursor:none;
+}
+
+.cursor-dot{
+    width: 5px;
+    height: 5px;
+    background-color: black;
+}
+.cursor-outline{
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(43, 43, 43);
+}
+
+.cursor-dot,.cursor-outline{
+    position: fixed;
+    top:0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+<a href="brochure.pdf" download="brochure">
+    <button id="download">Download Brochure</button>
+</a>
+
+
+
+
+
+
+
+
+            <!--Things we'll be learning Boxes-->
+                    
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <img src="images/robot.png" width="56" height="56" style="align-self: center; margin-left: 20px;">
+                            <div class="titles">
+                                <h3>Robotics</h3>
+                                <p>Learn the basics and advanced methods of creating the autonomous robots.</p>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <img src="images/circuit.png" width="56" height="56" style="align-self: center; margin-left: 20px;">
+                            <div class="titles">
+                                <h3>Circuit Design</h3>
+                                <p>Learn to create your circuit for your machine application & PCB Fabrication.</p>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <img src="images/build.png" width="56" height="56" style="align-self: center; margin-left: 20px;">
+                            <div class="titles">
+                                <h3>Programming</h3>
+                                <p>Programming a robot is the main task to make it an autonomous machine.</p>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <img src="images/tools.png" width="56" height="56" style="align-self: center; margin-left: 20px;" >
+                            <div class="titles">
+                                <h3>Machine Design</h3>
+                                <p>Design your 2D/3D robots and simulate before actually creating a live model.</p>
+                            </div>
+                        </div>
+                        <!--More Grid Boxes if needed-->
+                        <!--<div class="grid-item">5</div>
+                        <div class="grid-item">6</div>
+                        <div class="grid-item">7</div>
+                        <div class="grid-item">8</div>
+                        <div class="grid-item">9</div>-->
+                    </div>   
+                </div>
+            </div>
+            
+        </div>
+        
+
+
+        <!-- Old Footer -->
+        <!-- <div class="footer">
+            <div class="footerleft">
+                <div class="socialmedia">
+                    <a href=""><img src="images/whatsapp.png" width="35" height="35" style="opacity: 80%;"><p>Whatsapp</p></a>
+                    <a href=""><img src="images/linkedin.png" width="35" height="35" style="opacity: 80%;"><p>Linkedin</p></a>
+                    <a href=""><img src="images/instagram.png" width="35" height="35" style="opacity: 80%;"><p>Instagram</p></a>
+                    <a href=""><img src="images/twitter.png" width="35" height="35" style="opacity: 80%;"><p>Twitter</p></a>
+                    <a href=""><img src="images/facebook.png" width="35" height="35" style="opacity: 80%;"><p>Facebook</p></a>
+                </div>  
+            </div>
+            <div class="footerright">
+                <h6>Robotics Club DYPIEMR</h6>
+                <p>Dr. D. Y. Patil Institute Of Engineering,
+                    Management And Research, D. Y. Patil
+                    Educational Complex, Sector 29, Nigdi
+                    Pradhikaran, Akurdi, Pune 411044.</p>
+            </div>
+        </div> -->
+
+
+
+
+
+
+
+
+        <!--Old Navbar -->
+    <!-- <div class="navbar">
+        <div class="navbar-left">
+            <div class="logo">
+                <img src="images/logo1.png" height="75" width="75">
+            </div>
+            <div class="name">Robotics Club DYPIEMR</div>
+        </div>
+        <div class="navbar-right">
+            <button class="home">
+                Home
+            </button> -->
+<!--
+            <button class="courses">
+            <p>Courses &amp; Projects</p>
+            <ul class="sub-menu" style="align-items: left;">
+                <li id="menu-item-1482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1482">
+                    <a href="https://indianinstituteofrobotics.co.in/robotics-training-program-registration/">Robotics Training Program – Registration</a>
+                </li>
+                <li id="menu-item-496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-496">
+                    <a href="https://indianinstituteofrobotics.co.in/robotics-projects/">Robotics Projects</a></li>
+                <li id="menu-item-495" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-495">
+                    <a href="https://indianinstituteofrobotics.co.in/iot-projects/">IoT Projects</a></li>
+            </ul>
+            </button>
+-->            
+            <!-- <button class="contact">Contact Us</button> -->
+<!--
+            <div class="nav-search">
+                <div class="search-icon"><img width="32" height="32" 
+                    src="https://img.icons8.com/cotton/64/search--v2.png" 
+                    alt="search--v2"/>
+                </div>
+            </div>
+        -->            
+        <!-- </div>
+    </div> -->
+
+
+    /* Old Navbar */
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.navbar-left, .navbar-right {
+    display: flex;
+    align-items: center;
+} */
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.socialmedia img {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.footer {
+        flex-direction: column;
+    }
+    .footerleft, .footerright {
+        width: 100%;
+        text-align: center;
+    }
+    .footerright {
+        padding: 0;
+    }
+    .socialmedia {
+        justify-content: center;
+    }
+
+
+
+
+<!--Lots to Learn and Work-->
+        <!--
+        <div class="learngrid">
+            <div class="learn">
+                <div class="learn_box">
+                    <div class="box4">
+                        <h2 style="text-align: center; font-size: 2.2rem; color: rgb(35, 35, 35);" id="numerous">Numerous Projects to learn & work on</h2>
+                        <h1 style="font-size: 2rem;">---</h1>
+                        <h3 style="text-align: left; font-size: 1.2rem; color: rgb(35, 35, 35);" id="hugerepo">Get a huge repository of projects and 
+                            technologies 
+                            to learn from to build your own custom project
+                        </h3>
+                        <p id="choose" font-size: 1rem style="text-wrap: wrap;">Choose from a wide range of courses for your next project. Learn PCB Designing, Robot 2D/3D modeling, robotics training,
+                             IoT training, circuit designing, C programming, RISC architecture, Python, AI, Database designing, Apps development, 
+                             Web interface design and lot more
+                        </p>
+                    </div>
+-->
+
+
+
+    <!--
+            <div class="about2">
+            <p style="text-align: center;">   
+                But we are different.
+                We teach the students, how to create their own motherboards and own controlling modules, allowing them to make their own custom applications. With this custom module training, you gain real knowledge and start building your own custom robot at the minimum cost 
+                and minimum resources. Robotics courses in India are offered by many organizations, 
+                but most of the robotics training centers in India are governed by un-experienced professionals of robotics 
+                technologies or who have just learned a few things about robotics either online or from a nearby robotics training institute with a limited amount of knowledge.
+            </p>     
+            </div>
+            <div class="about3">
+                <p style="text-align: center;"> ost of the robotics and automation training institutes in India, don’t even have the proper robotic labs to perform real mechanical robotics projects and electronics labs to perform testing and control functions. 
+                    We help individuals, institutions, and others to set up a robotics lab at their own place with the required components, machines, etc to allow the candidates to perform real-life experiments.
+                    
+                    We are one of the best robotics labs and artificial intelligence institutions in the country with the best minds who work with us 
+                    in our labs. At IIR labs, candidates get the real exposure of the electro-mechanical components required to build a machine, 
+                    analyze data and perform the experiments. 
+                </p>
+            </div>
+    -->

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Club Of DYPIEMR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo"></div>
+            </div>
+
+            <div class="home">
+                <a href="" aria-current="page">Home</a>
+            </div>
+
+            <div class="courses">
+            <p>Courses &amp; Projects</p>
+            <ul class="sub-menu">
+                <li id="menu-item-1482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1482">
+                    <a href="https://indianinstituteofrobotics.co.in/robotics-training-program-registration/">Robotics Training Program – Registration</a>
+                </li>
+                <li id="menu-item-496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-496">
+                    <a href="https://indianinstituteofrobotics.co.in/robotics-projects/">Robotics Projects</a></li>
+                <li id="menu-item-495" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-495">
+                    <a href="https://indianinstituteofrobotics.co.in/iot-projects/">IoT Projects</a></li>
+            </ul>
+            </div>
+            <div class="contact">
+                <p>Contact Us</p>
+            </div>
+            <div class="nav-search">
+                <div class="search-icon"><img width="32" height="32" 
+                    src="https://img.icons8.com/cotton/64/search--v2.png" 
+                    alt="search--v2"/>
+                </div>
+            </div>
+        </div>
+        <!-- Hero-section -->
+        <div class="hero-section">
+            <div class="box1">
+				<div class="box2">
+                    <h1 style="text-align: center;">GET WIRED IN!</h1>
+                </div>
+				<div class="box3">
+                <h2 style="text-align: center;">JOIN THE ROBOTICS CLUB DYPIEMR WHERE ENGINEERING MEETS INNOVATION</h2>
+                <h2 style="text-align: center;">DESIGN | BUILD | CODE</h2>
+			    </div> <!-- .et_pb_text -->
+			</div>
+        </div>
+    </header>
+</body>
+</html>
+
